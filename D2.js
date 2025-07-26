@@ -105,27 +105,25 @@ for(let i =0; i<=15; i++){
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA
-let num = 4;
-let num2 = 12;
-if (num === 8) {
-  console.log('Il primo numero è 8');
+/* SCRIVI QUI LA TUA RISPOSTA*/
 
-} else if (num2 === 8) {
-  console.log('Il secondo numero è 8');
+
+let num = 10;
+let num2 = 18;
+
+
+if (num === 8 || num2 === 8) {
+  console.log('Uno dei due numeri è 8');
+ 
 }
-else if (num + num2 === 8) {
-  console.log('La somma dei due numeri è 8');
-} else if (Math.abs(num - num2 === 8)) {
-  console.log('La sottrazione del primo numero meno il secondo è 8');
-} else {
+ if (num + num2 === 8 || Math.abs(num - num2) === 8) {
+  console.log('La somma  o la sottrazione dei due numeri è 8');
+} 
+else{
   console.log('Nessuna condizione soddisfatta');
 }
 
 
-
-
-*/
 
 
 
@@ -135,7 +133,7 @@ C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha d
 Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA
 
 const totalShoppingCart = 50;
 const shippingCost = 10;
@@ -148,12 +146,22 @@ if (totalShoppingCart > 50) {
 }
 
 
+
+
+*/
+
+
+
+
 /* ESERCIZIO EXTRA 3
   Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando, usando l'algoritmo del codice precedente, se le spedizioni siano gratuite oppure no e e calcolando il totale.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
+
 
 /*  ESERCIZIO EXTRA 4
   Usa un operatore ternaio per assegnare ad una variabile chiamata "gender" i valori "male" o "female".
@@ -162,6 +170,10 @@ if (totalShoppingCart > 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
+
+
 
 /* ESERCIZIO EXTRA 5
   Scrivi un algoritmo che iteri i numeri da 1 a 100, stampandoli in console. Se un valore tuttavia è multiplo di 3 (operatore modulo!), stampa al suo posto la parola "Fizz" e se il numero è multiplo di 5, stampa "Buzz". Se le condizioni si verificano entrambe, stampa "FizzBuzz".
