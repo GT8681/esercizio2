@@ -105,7 +105,7 @@ for(let i =0; i<=15; i++){
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA*/
+/* SCRIVI QUI LA TUA RISPOSTA
 
 
 let num = 10;
@@ -122,9 +122,7 @@ if (num === 8 || num2 === 8) {
 else{
   console.log('Nessuna condizione soddisfatta');
 }
-
-
-
+*/
 
 
 /* ESERCIZIO EXTRA 2
@@ -145,10 +143,8 @@ if (totalShoppingCart > 50) {
 
 }
 
-
-
-
 */
+
 
 
 
@@ -161,6 +157,19 @@ if (totalShoppingCart > 50) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 
+const totalShoppingCart = 70;
+const shippingCost = 10;
+const promotion = totalShoppingCart -(totalShoppingCart * 20) / 100; 
+
+if (promotion> 50) {
+  console.log(`Il totale del carrello è ${promotion}, quindi la spedizione è gratuita.`);
+} else {
+  console.log(`Il totale del carrello è ${promotion}, + costo spedizione di 10 euro = ${promotion + shippingCost}`);
+
+}
+
+
+
 
 
 /*  ESERCIZIO EXTRA 4
@@ -169,7 +178,15 @@ if (totalShoppingCart > 50) {
   Es. se isMale e' vero, il valore di gender deve essere "male"
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA 
+
+const isMale = true;
+const male = male;
+const female = female;
+const gender = isMale? male:female
+console.log(gender);
+*/
+
 
 
 
@@ -192,9 +209,5 @@ for (let i = 1; i <= 100; i++) {
         console.log(i);
     }
 }
-
-
-
-
 
 */
